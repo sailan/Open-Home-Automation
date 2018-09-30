@@ -57,8 +57,8 @@ const PROGMEM uint8_t BUILTINLED_PIN  = BUILTIN_LED;
 // MQTT ID and topics
 char                  MQTT_CLIENT_ID[7]                                           = {0};
 char                  MQTT_BINARY_SENSOR_DOOR_STATE_TOPIC[STRUCT_CHAR_ARRAY_SIZE] = {0};
-const char*           MQTT_ON_PAYLOAD                                             = "ON";
-const char*           MQTT_OFF_PAYLOAD                                            = "OFF";
+const char*           MQTT_ON_PAYLOAD                                             = "1";
+const char*           MQTT_OFF_PAYLOAD                                            = "0";
 
 // MQTT settings
 typedef struct {
